@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotts.ai - AI Agents with Human Oversight</title>
+    <meta name="description" content="Deploy AI agents that handle workflows autonomously—with human oversight built in for critical decisions.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@300;400;500&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <div class="logo">spotts<span>.ai</span></div>
+            <div class="nav-links">
+                <a href="#what">What It Does</a>
+                <a href="#problems">Use Cases</a>
+                <a href="#outcomes">Outcomes</a>
+                <button class="btn btn-primary">Explore Your Use Case</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="container-narrow">
+            <h1>AI agents that work<br>alongside your team</h1>
+            <p>Deploy AI agents that handle workflows autonomously—with human oversight built in for critical decisions. Your team stays in control.</p>
+            <div class="hero-cta">
+                <button class="btn btn-primary btn-large">See How It Works</button>
+                <button class="btn btn-secondary btn-large">Book a Demo</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Bar -->
+    <section class="stats-bar">
+        <div class="container">
+            <div class="stats-grid">
+                <div>
+                    <div class="stat-value">333% ROI</div>
+                    <div class="stat-label">
+                        Forrester study, 3-year average
+                        <span class="source-link">
+                            [source]
+                            <span class="source-tooltip">
+                                <div class="source-tooltip-title">Forrester Total Economic Impact Study, 2025</div>
+                                <div class="source-tooltip-url">https://writer.com/blog/roi-for-generative-ai/</div>
+                            </span>
+                        </span>
+                    </div>
+                </div>
+                <div>
+                    <div class="stat-value">74%</div>
+                    <div class="stat-label">
+                        Achieve ROI within year one
+                        <span class="source-link">
+                            [source]
+                            <span class="source-tooltip">
+                                <div class="source-tooltip-title">Google Cloud ROI Report, 2025</div>
+                                <div class="source-tooltip-url">https://cloud.google.com/transform/roi-of-ai-how-agents-help-business</div>
+                            </span>
+                        </span>
+                    </div>
+                </div>
+                <div>
+                    <div class="stat-value">78%</div>
+                    <div class="stat-label">
+                        Use AI but need better implementation
+                        <span class="source-link">
+                            [source]
+                            <span class="source-tooltip">
+                                <div class="source-tooltip-title">McKinsey AI State Report, 2025</div>
+                                <div class="source-tooltip-url">https://www.mckinsey.com/capabilities/quantumblack/our-insights/seizing-the-agentic-ai-advantage</div>
+                            </span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What Is Agentic AI -->
+    <section id="what">
+        <div class="container-narrow">
+            <h2>What is agentic AI?</h2>
+            <p class="section-intro">AI systems that can complete multi-step tasks independently, while keeping humans in the loop for critical decisions.</p>
+            
+            <div class="comparison">
+                <div class="comparison-grid">
+                    <div>
+                        <div class="comparison-title">Regular AI (like ChatGPT)</div>
+                        <div class="comparison-item">You: "Draft an email to this customer"</div>
+                        <div class="comparison-item">AI: "Here's your email"</div>
+                        <div class="comparison-item">You: "Now update the CRM"</div>
+                        <div class="comparison-item">AI: "I can't do that"</div>
+                        <div class="comparison-note">You're still doing the work.</div>
+                    </div>
+                    <div>
+                        <div class="comparison-title">Agentic AI (with oversight)</div>
+                        <div class="comparison-item">You: "Handle routine customer inquiries"</div>
+                        <div class="comparison-item">AI: ✓ Reads inquiries</div>
+                        <div class="comparison-item" style="padding-left: 1.5rem;">✓ Checks order history</div>
+                        <div class="comparison-item" style="padding-left: 1.5rem;">✓ Processes standard refunds (&lt;$100)</div>
+                        <div class="comparison-item" style="padding-left: 1.5rem;">⚠️ Escalates complex cases to you</div>
+                        <div class="comparison-note" style="font-weight: 400;">You approve, AI executes.</div>
+                    </div>
+                </div>
+            </div>
+
+            <h3 style="font-size: 1.5rem; font-weight: 300; margin-bottom: 2rem;">How it works: Four steps</h3>
+            <div class="steps-grid">
+                <div class="step active" data-step="0">
+                    <div class="step-number">1</div>
+                    <div class="step-title">Perceive</div>
+                    <div class="step-desc">Gathers data from your systems</div>
+                    <div class="step-detail">CRM, email, databases, APIs</div>
+                    <div class="step-arrow">→</div>
+                </div>
+                <div class="step" data-step="1">
+                    <div class="step-number">2</div>
+                    <div class="step-title">Reason</div>
+                    <div class="step-desc">Analyzes using AI</div>
+                    <div class="step-detail">Understands context, makes decisions</div>
+                    <div class="step-arrow">→</div>
+                </div>
+                <div class="step" data-step="2">
+                    <div class="step-number">3</div>
+                    <div class="step-title">Act</div>
+                    <div class="step-desc">Executes with oversight</div>
+                    <div class="step-detail">Updates records, routes to humans when needed</div>
+                    <div class="step-arrow">→</div>
+                </div>
+                <div class="step" data-step="3">
+                    <div class="step-number">4</div>
+                    <div class="step-title">Learn</div>
+                    <div class="step-desc">Improves over time</div>
+                    <div class="step-detail">Gets smarter with feedback</div>
+                </div>
+            </div>
+
+            <div class="info-box blue">
+                <div class="info-box-title">Human oversight is built in</div>
+                <div class="info-box-content">
+                    Agentic AI handles routine decisions independently, but critical actions—like large refunds, contract approvals, or security responses—require human approval. You set the rules: What can AI do autonomously? What needs your sign-off? The system learns your preferences and escalates appropriately.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problems Section -->
+    <section id="problems" class="bg-gray">
+        <div class="container">
+            <h2>What problems does this solve?</h2>
+            <p class="section-intro">Real business issues where AI agents are delivering measurable results—with human oversight maintaining control.</p>
+
+            <div class="problems-list">
+                <div class="problem">
+                    <div>
+                        <div class="problem-title">Customer support overwhelm</div>
+                        <div class="problem-stat">
+                            58% adoption rate for automation
+                            <span class="source-link">
+                                [source]
+                                <span class="source-tooltip">
+                                    <div class="source-tooltip-title">IDC Southeast Asia Survey, 2025</div>
+                                    <div class="source-tooltip-url">https://www.manilatimes.net/2025/08/17/business/sunday-business-it/most-asean-organizations-adopting-ai-agents-in-the-next-12-months/2169037</div>
+                                </span>
+                            </span>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="problem-label">What AI agents do</div>
+                        <div class="problem-text">AI agents handle routine cases 24/7, escalate complex ones with full context to human teams</div>
+                    </div>
+                    <div>
+                        <div class="problem-label problem-outcome-label">Business outcome</div>
+                        <div class="problem-text">Teams focus on problems requiring human judgment</div>
+                    </div>
+                </div>
+
+                <div class="problem">
+                    <div>
+                        <div class="problem-title">Manual processes eating time</div>
+                        <div class="problem-stat">
+                            50% time reduction achieved
+                            <span class="source-link">
+                                [source]
+                                <span class="source-tooltip">
+                                    <div class="source-tooltip-title">McKinsey Advanced Industries, 2025</div>
+                                    <div class="source-tooltip-url">https://www.mckinsey.com/industries/automotive-and-assembly/our-insights/empowering-advanced-industries-with-agentic-ai</div>
+                                </span>
+                            </span>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="problem-label">What AI agents do</div>
+                        <div class="problem-text">AI agents automate documentation and testing, with human approval for critical decisions</div>
+                    </div>
+                    <div>
+                        <div class="problem-label problem-outcome-label">Business outcome</div>
+                        <div class="problem-text">Automotive supplier: 50% faster test case generation for junior engineers</div>
+                    </div>
+                </div>
+
+                <div class="problem">
+                    <div>
+                        <div class="problem-title">IT always firefighting</div>
+                        <div class="problem-stat">
+                            AI agents now deployed in SOCs
+                            <span class="source-link">
+                                [source]
+                                <span class="source-tooltip">
+                                    <div class="source-tooltip-title">TechTarget Enterprise AI, 2025</div>
+                                    <div class="source-tooltip-url">https://www.techtarget.com/searchenterpriseai/feature/Real-world-agentic-AI-examples-and-use-cases</div>
+                                </span>
+                            </span>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="problem-label">What AI agents do</div>
+                        <div class="problem-text">AI agents investigate incidents and correlate threats, escalate to human analysts for final decisions</div>
+                    </div>
+                    <div>
+                        <div class="problem-label problem-outcome-label">Business outcome</div>
+                        <div class="problem-text">Proactive threat detection with human oversight for response actions</div>
+                    </div>
+                </div>
+
+                <div class="problem">
+                    <div>
+                        <div class="problem-title">Supply chain complexity</div>
+                        <div class="problem-stat">
+                            20%+ logistics cost reduction
+                            <span class="source-link">
+                                [source]
+                                <span class="source-tooltip">
+                                    <div class="source-tooltip-title">McKinsey Research, 2025</div>
+                                    <div class="source-tooltip-url">https://www.mckinsey.com/industries/automotive-and-assembly/our-insights/empowering-advanced-industries-with-agentic-ai</div>
+                                </span>
+                            </span>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="problem-label">What AI agents do</div>
+                        <div class="problem-text">AI agents monitor and optimize, recommend actions to human operators for approval</div>
+                    </div>
+                    <div>
+                        <div class="problem-label problem-outcome-label">Business outcome</div>
+                        <div class="problem-text">Real-time optimization with human oversight on major routing decisions</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="info-box" style="background: white; border-color: #e5e7eb; margin-top: 3rem;">
+                <div class="info-box-title">The reality about jobs and AI</div>
+                <div class="info-box-content">
+                    <p style="margin-bottom: 0.75rem;">AI agents don't replace your team—they handle the repetitive work that drains energy and time. That automotive supplier saw junior engineers move from documentation to actual engineering work. Support teams solve complex problems instead of resetting passwords.</p>
+                    <p><strong style="font-weight: 400;">The truth:</strong> Your team becomes more strategic, not redundant. AI handles the grunt work. Humans handle judgment, relationships, and decisions that require context.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Outcomes Section -->
+    <section id="outcomes">
+        <div class="container">
+            <h2>Does it actually work?</h2>
+            <p class="section-intro">Here's what companies are seeing. Every number is sourced and verifiable.</p>
+
+            <div class="outcomes-grid">
+                <div class="outcome">
+                    <div class="outcome-metric">333% ROI</div>
+                    <div class="outcome-detail">in 3 years, $12.02M net value, &lt;6 month payback</div>
+                    <div class="outcome-company">
+                        <span>Writer Platform</span>
+                        <span class="source-link">
+                            [source]
+                            <span class="source-tooltip">
+                                <div class="source-tooltip-title">Forrester TEI Study, 2025</div>
+                                <div class="source-tooltip-url">https://writer.com/blog/roi-for-generative-ai/</div>
+                            </span>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="outcome">
+                    <div class="outcome-metric">74% achieve ROI</div>
+                    <div class="outcome-detail">within first year of deployment</div>
+                    <div class="outcome-company">
+                        <span>Enterprise Deployments</span>
+                        <span class="source-link">
+                            [source]
+                            <span class="source-tooltip">
+                                <div class="source-tooltip-title">Google Cloud ROI Report, 2025</div>
+                                <div class="source-tooltip-url">https://cloud.google.com/transform/roi-of-ai-how-agents-help-business</div>
+                            </span>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="outcome">
+                    <div class="outcome-metric">85% faster</div>
+                    <div class="outcome-detail">review processes, 50% agency cost reduction</div>
+                    <div class="outcome-company">
+                        <span>Financial Services</span>
+                        <span class="source-link">
+                            [source]
+                            <span class="source-tooltip">
+                                <div class="source-tooltip-title">Forrester/Writer Study, 2025</div>
+                                <div class="source-tooltip-url">https://writer.com/blog/roi-for-generative-ai/</div>
+                            </span>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="outcome">
+                    <div class="outcome-metric">20%+ reduction</div>
+                    <div class="outcome-detail">in logistics and inventory costs</div>
+                    <div class="outcome-company">
+                        <span>Manufacturing</span>
+                        <span class="source-link">
+                            [source]
+                            <span class="source-tooltip">
+                                <div class="source-tooltip-title">McKinsey Research, 2025</div>
+                                <div class="source-tooltip-url">https://www.mckinsey.com/industries/automotive-and-assembly/our-insights/empowering-advanced-industries-with-agentic-ai</div>
+                            </span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-grid">
+                <div>
+                    <h3>The pattern: Start small, scale fast</h3>
+                    <div class="timeline-item">
+                        <div class="timeline-title">Weeks 1-4: Prototype</div>
+                        <div class="timeline-desc">Pick one workflow, build it, test with real data</div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-title">Month 2-3: Deploy & Measure</div>
+                        <div class="timeline-desc">Production deployment with human oversight protocols</div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-title">Month 6-12: ROI Realized</div>
+                        <div class="timeline-desc">
+                            74% of companies see returns by year one
+                            <span class="source-link">
+                                [source]
+                                <span class="source-tooltip">
+                                    <div class="source-tooltip-title">Google Cloud, 2025</div>
+                                    <div class="source-tooltip-url">https://cloud.google.com/transform/roi-of-ai-how-agents-help-business</div>
+                                </span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h3>Why most AI projects fail</h3>
+                    <p>
+                        78% of companies use AI. 80% see no ROI. Why?
+                        <span class="source-link">
+                            [source]
+                            <span class="source-tooltip">
+                                <div class="source-tooltip-title">McKinsey, 2025</div>
+                                <div class="source-tooltip-url">https://www.mckinsey.com/capabilities/quantumblack/our-insights/seizing-the-agentic-ai-advantage</div>
+                            </span>
+                        </span>
+                    </p>
+                    <p><strong style="font-weight: 400;">The problem:</strong> They deploy ChatGPT for emails instead of automating actual business processes.</p>
+                    <p><strong style="font-weight: 400;">What works:</strong> Identifying complete workflows where AI can take full ownership (with human oversight) and measuring real impact—time saved, costs reduced, revenue increased.</p>
+                </div>
+            </div>
+
+            <div class="info-box yellow">
+                <div class="info-box-title">Our commitment to transparency</div>
+                <div class="info-box-content">
+                    Every metric on this page links to its source. We don't make up numbers. If we can't verify it, we don't claim it. Hover over any [source] tag to see the research behind the data.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta bg-gray">
+        <div class="container-narrow">
+            <h2>Ready to explore your use case?</h2>
+            <p class="section-intro" style="text-align: center; margin-left: auto; margin-right: auto;">We start with a conversation about your actual workflows. No generic demos. We prototype one use case in 2-4 weeks. If it works, we scale. If not, we pivot.</p>
+
+            <div class="cta-box">
+                <div class="cta-box-title">The 4-week discovery process</div>
+                <div class="cta-steps">
+                    <div>
+                        <div class="cta-step-title">Week 1</div>
+                        <div class="cta-step-desc">Discovery: What's your biggest operational bottleneck?</div>
+                    </div>
+                    <div>
+                        <div class="cta-step-title">Week 2</div>
+                        <div class="cta-step-desc">Design: Map workflow, define oversight rules</div>
+                    </div>
+                    <div>
+                        <div class="cta-step-title">Week 3-4</div>
+                        <div class="cta-step-desc">Build & test prototype with your real data</div>
+                    </div>
+                    <div>
+                        <div class="cta-step-title">Decision</div>
+                        <div class="cta-step-desc">Works? Scale it. Doesn't? We pivot or part ways.</div>
+                    </div>
+                </div>
+            </div>
+
+            <button class="btn btn-primary btn-large">Schedule Discovery Call</button>
+            <div class="cta-note">30 minutes. We discuss your workflows, not our features.</div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <div class="logo" style="margin-bottom: 0.75rem;">spotts<span>.ai</span></div>
+                    <div class="footer-link">AI agents with human oversight</div>
+                </div>
+                <div>
+                    <div class="footer-title">Platform</div>
+                    <div class="footer-links">
+                        <a href="#what" class="footer-link">How It Works</a>
+                        <a href="#problems" class="footer-link">Use Cases</a>
+                        <a href="#" class="footer-link">Research</a>
+                    </div>
+                </div>
+                <div>
+                    <div class="footer-title">Company</div>
+                    <div class="footer-links">
+                        <a href="#" class="footer-link">About</a>
+                        <a href="#" class="footer-link">Case Studies</a>
+                    </div>
+                </div>
+                <div>
+                    <div class="footer-title">Contact</div>
+                    <div class="footer-links">
+                        <a href="mailto:support@spotts.ai" class="footer-link">support@spotts.ai</a>
+                        <a href="#" class="footer-link">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                © 2025 Spotts.ai • All metrics sourced and verifiable
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
